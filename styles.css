@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('images/to do sign up.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.center-page {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* height: 100vh; */
+}
+#rr{
+    color: black;
+    font-size: 300%;
+    font-weight: bold;
+    font-family:Verdana,  Tahoma, sans-serif;
+    margin: 10px 20px  ;
+
+}
+/* Glass card */
+.glass-card {
+    padding: 40px;
+    border-radius: 20px;
+    /* backdrop-filter: blur(1px); */
+    text-align: center;
+    width: 600px;
+    height:600px
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    height: 40px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    height: 70px;
+    width: 90px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+.r1{
+    display: grid;
+
+    padding: 0% 50%;
+    color: rgb(102, 10, 10);
+    /* margin: 10px 20px; */
+    font-size: 300%;
+    font-weight: bold;
+    font-family:sans-serif;
+    top:0
+}
+.top-bar {
+    display: grid;
+    padding: 40px 40px;
+}
+.welcome {
+  margin-bottom: 0;
+  margin-top: auto;
+  margin-left: -100px;
+}
+
+.brand {
+  margin-top: 5px;
+  margin-left: -200px;
+  color: rgb(145, 25, 85);
+}

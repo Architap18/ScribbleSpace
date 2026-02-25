@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="top-bar">
+    <h2 id="welcomeText"></h2>
+    <button onclick="logout()">Logout</button>
+</div>
+
+<div class="dashboard">
+    <div class="create-box">
+        <input type="text" id="newListName" placeholder="New List Name">
+        <button onclick="createList()">Create</button>
+    </div>
+
+    <div id="listsContainer" class="cards"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
